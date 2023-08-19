@@ -108,7 +108,8 @@ const Home = () => {
 
 
   return (
-    <>
+    <div className ="add" style={{ backgroundImage: 'url("https://images8.alphacoders.com/592/592496.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',  height: '800px'}}>
+      <>
       <Navbar />
 
       <div className="container mt-3 text-center">
@@ -158,6 +159,7 @@ const Home = () => {
         </div>
       </div>
     </>
+    </div>
   );
 };
 

@@ -3,6 +3,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 
+
+
 const Addtask = () => {
   const location = useLocation();
 
@@ -72,10 +74,11 @@ const Addtask = () => {
   };
 
   return (
-    <>
+    <div className ="add" style={{ backgroundImage: 'url("https://tse2.mm.bing.net/th?id=OIP.8zJYriRG6Cboi60OoY2xpwHaEo&pid=Api&P=0&h=180")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',  height: '800px'}} >
+      <>
       <Navbar />
 
-      <div className="container mt-3">
+      <div className="container mt-3 ">
         <div className="row">
           <div className="col col-sm-12 col-md-9 col-lg-9">
             <form onSubmit={submitClicked}>
@@ -145,6 +148,8 @@ const Addtask = () => {
         </div>
       </div>
     </>
+
+    </div>
   );
 };
 

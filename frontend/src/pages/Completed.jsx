@@ -110,7 +110,8 @@ const Completed = () => {
   const completedTasks = input.filter((task) => task.status === "Complete");
 
   return (
-    <>
+    <div className ="Completed" style={{ backgroundImage: 'url("https://tse2.mm.bing.net/th?id=OIP.OuZCUAhKLT6yc_peEzVpJwHaEo&pid=Api&P=0&h=180")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',  height: '800px'  }}>
+      <>
       <Navbar />
 
       <div className="container mt-3 text-center">
@@ -160,6 +161,7 @@ const Completed = () => {
         </div>
       </div>
     </>
+    </div>
   );
 };
 

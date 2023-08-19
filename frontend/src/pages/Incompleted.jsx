@@ -110,7 +110,8 @@ const Incompleted = () => {
   const incompleteTasks = input.filter((task) => task.status === "Incomplete");
 
   return (
-    <>
+    <div className ="add" style={{ backgroundImage: 'url("https://images6.alphacoders.com/370/thumb-1920-370574.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',  height: '800px'}}>
+      <>
       <Navbar />
 
       <div className="container mt-3 text-center">
@@ -160,6 +161,7 @@ const Incompleted = () => {
         </div>
       </div>
     </>
+    </div>
   );
 };
 
